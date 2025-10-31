@@ -1,10 +1,12 @@
-import "./App.css";
+import Lesson02 from "./lessons/Lesson02/Lesson02";
+// импортируем компонент Button для его дальнейшего использования
+// import Button from "./components/Button/Button";
 
 function App() {
   return (
-    <div className="app">
-      <p>My first react app</p>
-    </div>
+    <>
+     <Lesson02/>
+    </>
   );
 }
 
