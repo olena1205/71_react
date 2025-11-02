@@ -1,20 +1,20 @@
-import Homework02 from "./homeworks/Homework02/Homework02";
-import Button from "./components/Button/Button";
-import Lesson02 from "./lessons/Lesson02/Lesson02";
 // импортируем компонент Button для его дальнейшего использования
 // import Button from "./components/Button/Button";
+
+// Импорты лекций 
+import Lesson02 from "./lessons/Lesson02/Lesson02";
+import Lesson03 from "./lessons/Lesson03/Lesson03";
+
+
+// Импорты домашних работ
 
 function App() {
   return (
     <>
-      {/* Вызываем компонент Button для того, чтобы он вернул
-    JSX и наша кнопка отобразилась на странице  */}
-      {/* <div className="button-container">
-        <Button />
-      </div> */}
-
-      {/* <Lesson02 /> */}
-      <Homework02 />
+    {/* Лекция 2 */}
+      {/* <Lesson02/> */}
+      {/* Лекция 3 */}
+      <Lesson03 />
     </>
   );
 }
