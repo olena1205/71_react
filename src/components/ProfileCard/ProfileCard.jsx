@@ -1,12 +1,17 @@
-import "./styles.css"
+import "./styles.css";
+import { userData } from "./data";
 
 function ProfileCard() {
-     return (
+  const { avatar, name, profession, hobby } = userData;
+
+  return (
     <div className="profilecard-wrapper">
-      <h2>Freddy Krueger</h2>
-      <p>Nightmare Manager</p>
-      <p>Sharpening gloves & scaring dreamers</p>
-      <img src= "https://pixabay.com/illustrations/freddy-krueger-dude-cartoon-evil-7575154/" />
+      <h3>{name}</h3>
+      <img src={avatar} alt="avatar image" />
+      <div>{profession}</div>
+      <div>{hobby}</div>
     </div>
   );
 }
+
+export default ProfileCard;
