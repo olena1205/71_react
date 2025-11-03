@@ -6,8 +6,10 @@ import "./styles.css";
 
 // У функциональных компонентов есть один параметр - props (объект)
 // Этот параметр позволяет в момент вызова передавать в компонент значения
-function Button(props) {
-  return <button className="button" type={props.type}>{props.name}</button>;
+function Button({type, name}) {
+  return 
+  <button className="button" type={type}>
+    {name}</button>;
 }
 
 // Экспорт по умолчанию компонента Button. С помощью экспорта мы можем получать компонент
