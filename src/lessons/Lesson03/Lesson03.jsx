@@ -7,6 +7,7 @@ import StudyCard from "../../components/StudyCard/StudyCard";
 function Lesson03() {
   return (
     <div className="lesson03-wrapper">
+      
       <StudyCard lessonData={lessonData[0]} />
       <StudyCard lessonData={lessonData[1]} /> 
       <Button name="Send" type="submit" />
