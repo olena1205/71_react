@@ -8,6 +8,7 @@ function Homework03() {
       <form className="contact-form">
         <Input
           name="email"
+          id="email_id"
           label="Email"
           placeholder="Enter your email"
           type="email"

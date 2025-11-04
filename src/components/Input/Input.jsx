@@ -1,12 +1,13 @@
 import "./styles.css";
 
-function Input({ name, type, label, placeholder }) {
+function Input({ name, type, label, id, placeholder }) {
   return (
     <div className="input-container">
-      <label>{label}</label>
+      <label htmlFor={id}>{label}</label>
       <input
        name={name} 
-       type={type} 
+       type={type}
+       id={id}
        placeholder={placeholder} 
        />
     </div>
