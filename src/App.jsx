@@ -1,5 +1,7 @@
 // импортируем компонент Button для его дальнейшего использования
 // import Button from "./components/Button/Button";
+// Импорты консультаций
+import Consultation02 from "./consultations/Consultation02";
 
 // Импорты лекций
 import Lesson02 from "./lessons/Lesson02/Lesson02";
@@ -19,10 +21,12 @@ function App() {
 
       {/* Лекция 3 */}
       {/* <Lesson03 /> */}
-      <Homework03 />
+      {/* <Homework03 /> */}
 
       {/* Лекция 4 */}
       {/* <Lesson04 /> */}
+
+      <Consultation02 />
     </>
   );
 }
