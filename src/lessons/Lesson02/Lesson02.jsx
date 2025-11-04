@@ -10,10 +10,10 @@ function Lesson02() {
       <div className="button-container">
         <Button />
         <Button />
-        <Button/>
+        <Button />
       </div>
       {/* <LessonCard/> */}
-      <Lesson/>
+      <Lesson />
     </div>
   );
 }
