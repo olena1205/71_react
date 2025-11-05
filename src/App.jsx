@@ -7,6 +7,8 @@ import Consultation02 from "./consultations/Consultation02";
 import Lesson02 from "./lessons/Lesson02/Lesson02";
 import Lesson03 from "./lessons/Lesson03/Lesson03";
 import Lesson04 from "./lessons/Lesson04/Lesson04";
+import Lesson05 from "./lessons/Lesson05/Lesson05";
+
 
 // Импорты домашних работ
 import Homework02 from "./homeworks/Homework02/Homework02";
@@ -27,6 +29,9 @@ function App() {
       {/* Лекция 4 */}
       {/* <Lesson04 /> */}
       <Homework04 />
+
+      {/* Лекция 5 */}
+      <Lesson05 />
 
       {/* <Consultation02 /> */}
     </>
