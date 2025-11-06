@@ -1,13 +1,16 @@
 import "./styles.css";
 
-function Product({productId, productName, productPrice }) {
+function Product({ productName, productPrice }) {
   return (
-    <div className="products-wrapper">
-      <div product-card-container>
-        <h3>{productId}</h3>
-       <h3>{productName}</h3>
-      <div>{productPrice}</div>
-      </div>
+    <div className="product-wrapper">
+      <h3>{productName}</h3>
+      {/* Пример тернарного оператора для скрытия элемента */}
+      {/* {productPrice !== undefined ? <div>{productPrice}$</div> : null} */}
+      {/* true ? <div>: null */}
+      {/* {productPrice ? <div>{productPrice}$</div> : null} */}
+      {/* Пример использования оператора условного рендеринга */}
+      {productPrice && <div>{productPrice}$</div>}
+      {/* <div>{productPrice}$</div> */}
     </div>
   );
 }
