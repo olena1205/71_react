@@ -14,6 +14,7 @@ import Lesson05 from "./lessons/Lesson05/Lesson05";
 import Homework02 from "./homeworks/Homework02/Homework02";
 import Homework03 from "./homeworks/Homework03/Homework03";
 import Homework04 from "./homeworks/Homework04/Homework04";
+import Homework05 from "./homeworks/Homework05/Homework05";
 
 function App() {
   return (
@@ -32,9 +33,10 @@ function App() {
 
       {/* Лекция 5 */}
       {/* <Lesson05 /> */}
+      <Homework05 />
 
       {/* <Consultation02 /> */}
-      <Consultation03 />
+      {/* <Consultation03 /> */}
     </>
   );
 }
