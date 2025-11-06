@@ -1,0 +1,60 @@
+.consultation03-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  background: rgb(141, 192, 191);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.products-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(31, 22, 154);
+}
+
+.product-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-price-container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2a7a2e;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+.button-wrapper button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
